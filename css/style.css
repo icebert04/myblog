@@ -34,7 +34,7 @@ ul {
 }
 
 p {
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
 }
 
 img {
@@ -246,7 +246,7 @@ h6 {
 
 #showcase:before {
   content: "";
-  background: url("../img/featured.jpg") no-repeat center center/cover;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
