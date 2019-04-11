@@ -10,6 +10,8 @@
   --projects-color: #f99500;
   --mentors-color: #a66bbe;
   --investors-color: #009cff;
+  --news-color: #14f039;
+  --marketing-color: #e62103;
 }
 
 * {
@@ -78,6 +80,12 @@ h6 {
 }
 .category-investors {
   background: var(--investors-color);
+}
+.category-news {
+  background: var(--news-color);
+}
+.category-marketing {
+  background: var(--marketing-color);
 }
 
 .btn {
