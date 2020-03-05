@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.link {
+  color: #cf0d29;
+}
+
 ul {
   list-style: none;
 }
