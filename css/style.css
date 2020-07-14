@@ -1,6 +1,7 @@
 :root {
   --primary-color: #c72727;
   --secondary-color: #f99500;
+  --tertiary-color: #0000ff;
   --third-color: #21c475;
   --light-color: #f3f3f3;
   --dark-color: #333;
@@ -109,6 +110,9 @@ h6 {
 }
 .btn-secondary {
   background: var(--secondary-color);
+}
+.btn-tertiary {
+  background: var(--tertiary-color);
 }
 
 .btn:hover {
@@ -257,14 +261,14 @@ h6 {
 /* Showcase */
 #showcase {
   color: #fff;
-  background: #333;
+  background: #c72727;
   padding: 2rem;
   position: relative;
 }
 
 #showcase:before {
   content: "";
-  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  /* background: url("../img/friendillion.jpg") no-repeat center center/cover; */
   position: absolute;
   top: 0;
   left: 0;
