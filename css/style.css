@@ -313,6 +313,35 @@ h6 {
   grid-column: 2 / span 2;
 }
 
+/* Club */
+.mainClub div {
+  padding: 60px 0;
+}
+
+.ClubContainer {
+  margin: 0 auto;
+}
+
+.JoinClub {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.JoinClub2 {
+  background-color: coral;
+  text-align: center;
+}
+
+.JoinClub3 {
+  background-color: cyan;
+  text-align: center;
+}
+
+.JoinClub4 {
+  background-color: deeppink;
+  text-align: center;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
