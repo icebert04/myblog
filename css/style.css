@@ -220,7 +220,7 @@ h6 {
 
 #main-nav .container {
   display: grid;
-  grid-template-columns: 6fr 3fr 2fr;
+  grid-template-columns: 6fr 2fr 3fr;
   padding: 1rem;
   align-items: center;
 }
@@ -313,32 +313,44 @@ h6 {
   grid-column: 2 / span 2;
 }
 
-/* Club */
-.mainClub div {
+/* Hire */
+.mainHire div {
   padding: 60px 0;
 }
 
-.ClubContainer {
+.HireContainer {
   margin: 0 auto;
 }
 
-.JoinClub {
-  background-color: blueviolet;
+.HireContainer img {
+  max-width: 25rem;
+  max-height: 25rem;
+  margin: 30px;
+}
+
+.HireGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.HireMe {
+  background-color: #a66bbe;
   text-align: center;
 }
 
-.JoinClub2 {
+.HireMe2 {
   background-color: coral;
   text-align: center;
 }
 
-.JoinClub3 {
+.HireMe3 {
   background-color: cyan;
   text-align: center;
 }
 
-.JoinClub4 {
-  background-color: deeppink;
+.HireMe4 {
+  background-color: #ffb6c1;
   text-align: center;
 }
 
