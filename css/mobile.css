@@ -31,8 +31,13 @@
   /* Stack Grid Items */
   #showcase .showcase-container,
   #home-articles .articles-container,
-  #main-footer .footer-container {
+  #main-footer .footer-container,
+  .HireGrid {
     grid-template-columns: 1fr;
+  }
+
+  .MessageForm {
+    min-width: 340px;
   }
 
   #main-footer .footer-container > *:last-child {

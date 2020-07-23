@@ -107,23 +107,40 @@
             Fill in the form below,<br />
             You can message me just about... anything!
           </p>
-          <form name="contact" method="POST" data-netlify="true">
-            <p>
-              <label>Your Full Name: <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label
-                >Your Business Email: <input type="email" name="email"
-              /></label>
-            </p>
+          <div class="Form">
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label class="FormName"
+                  >Your Full Name:</label>
+                  <input type="text" name="name" placeholder="Name"
+                />
+              </p>
+              <p>
+                <label class="FormName"
+                  >Your Business Email:</label>
+                  <input type="email" placeholder="Email Address" name="email"
+                />
+              </p>
 
-            <p>
-              <label>Your Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-              <button type="submit">Sign me up</button>
-            </p>
-          </form>
+              <article>
+              <p>
+                <label class="FormLabel">Your Message:</label>
+                <p>
+                <textarea
+                  class="MessageForm"
+                  field-type="text"
+                  required_mark="required"
+                  name="message"
+                  placeholder="Message"
+                ></textarea>
+              </p>
+              </p>
+              </article>
+              <p>
+                <button class="FormButton" type="submit">Sign me up</button>
+              </p>
+            </form>
+          </div>
         </div>
       </div>
     </main>

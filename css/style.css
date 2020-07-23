@@ -354,6 +354,37 @@ h6 {
   text-align: center;
 }
 
+/* Hire form */
+
+/* .FormLabel {
+  padding-right: 150px;
+} */
+
+.Form {
+  margin: 0;
+  padding: 0;
+}
+
+.MessageForm {
+  align-content: center;
+  min-height: 150px;
+  min-width: 440px;
+}
+
+.FormName {
+  padding: 12px;
+}
+
+.FormButton {
+  border: none;
+  cursor: pointer;
+
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  background-color: #2c94f5;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
