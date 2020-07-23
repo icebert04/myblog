@@ -108,36 +108,39 @@
             You can message me just about... anything!
           </p>
           <div class="Form">
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="client" method="POST" data-netlify="true">
               <p>
                 <label class="FormName"
-                  >Your Full Name:</label>
-                  <input type="text" name="name" placeholder="Name"
-                />
+                  >Your Full Name:<input
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                /></label>
               </p>
               <p>
                 <label class="FormName"
-                  >Your Business Email:</label>
-                  <input type="email" placeholder="Email Address" name="email"
-                />
+                  >Your Business Email:<input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                /></label>
               </p>
 
               <article>
-              <p>
-                <label class="FormLabel">Your Message:</label>
                 <p>
-                <textarea
-                  class="MessageForm"
-                  field-type="text"
-                  required_mark="required"
-                  name="message"
-                  placeholder="Message"
-                ></textarea>
-              </p>
-              </p>
+                  <label class="FormLabel"
+                    >Your Message:
+
+                    <textarea
+                      class="MessageForm"
+                      name="message"
+                      placeholder="Message"
+                    ></textarea>
+                  </label>
+                </p>
               </article>
               <p>
-                <button class="FormButton" type="submit">Sign me up</button>
+                <button class="FormButton" type="submit">Send Message</button>
               </p>
             </form>
           </div>
