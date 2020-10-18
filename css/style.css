@@ -314,42 +314,42 @@ h6 {
 }
 
 /* Hire */
-.mainHire div {
+.mainFounders div {
   padding: 60px 0;
 }
 
-.HireContainer {
+.FoundersContainer {
   margin: 0 auto;
 }
 
-.HireContainer img {
+.FoundersContainer img {
   max-width: 25rem;
   max-height: 25rem;
   margin: 30px;
 }
 
-.HireGrid {
+.FoundersGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
 }
 
-.HireMe {
+.Founders {
   background-color: #a66bbe;
   text-align: center;
 }
 
-.HireMe2 {
+.Founders2 {
   background-color: coral;
   text-align: center;
 }
 
-.HireMe3 {
+.Founders3 {
   background-color: cyan;
   text-align: center;
 }
 
-.HireMe4 {
+.Founders4 {
   background-color: #ffb6c1;
   text-align: center;
 }
