@@ -278,19 +278,34 @@ h6 {
 }
 
 #showcase .showcase-container {
-  display: grid;
+  display: grid inline-block;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   height: 50vh;
 }
 
+#showcase .showcase-container input[type="email"] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#showcase .showcase-container input[type="submit"] {
+  width: 90%;
+}
+
 #showcase .showcase-content {
+  display: inline-block;
   z-index: 1;
 }
 
 #showcase .showcase-content p {
   margin-bottom: 1rem;
+}
+
+#showcase .showcase-content form {
+  position: absolute;
 }
 
 /* Home Articles */
